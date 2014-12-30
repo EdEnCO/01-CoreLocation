@@ -13,6 +13,7 @@
 		85F8F1EB1A52C39900047B9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F8F1EA1A52C39900047B9B /* Images.xcassets */; };
 		85F8F1EE1A52C39900047B9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85F8F1EC1A52C39900047B9B /* LaunchScreen.xib */; };
 		85F8F1FA1A52C39900047B9B /* _1_CoreLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F8F1F91A52C39900047B9B /* _1_CoreLocationTests.swift */; };
+		85F8F2041A52C61C00047B9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F8F2031A52C61C00047B9B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		85F8F1F31A52C39900047B9B /* 01-CoreLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-CoreLocationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F8F1F81A52C39900047B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85F8F1F91A52C39900047B9B /* _1_CoreLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_CoreLocationTests.swift; sourceTree = "<group>"; };
+		85F8F2031A52C61C00047B9B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F8F2041A52C61C00047B9B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		85F8F1D51A52C39900047B9B = {
 			isa = PBXGroup;
 			children = (
+				85F8F2031A52C61C00047B9B /* CoreLocation.framework */,
 				85F8F1E01A52C39900047B9B /* 01-CoreLocation */,
 				85F8F1F61A52C39900047B9B /* 01-CoreLocationTests */,
 				85F8F1DF1A52C39900047B9B /* Products */,
