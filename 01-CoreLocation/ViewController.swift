@@ -14,10 +14,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     // MARK: - Variables
     
     var locationManager = CLLocationManager()
+    var geocoder = CLGeocoder()
+    var placeMark: CLPlacemark?
+    
+    // MARK: - ViewController-Livecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        locationManager.requestAlwaysAuthorization()
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.startUpdatingLocation()
+        
     }
 
     override func didReceiveMemoryWarning() {
